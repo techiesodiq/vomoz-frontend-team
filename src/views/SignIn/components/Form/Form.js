@@ -176,7 +176,7 @@ const Form = () => {
 							Forgot your password?{" "}
 							<LearnMoreLink
 								title="Reset password"
-								href="/password-reset-cover"
+								href="/forgotpassword"
 							/>
 						</Typography>
 					</Grid>

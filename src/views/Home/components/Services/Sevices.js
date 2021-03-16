@@ -82,7 +82,7 @@ const Services = ({ className, ...rest }) => {
                   <IconAlternate
                     fontIconClass={item.icon}
                     size="medium"
-                    color={colors.indigo}
+                    color={colors.orange}
                   />
                 }
                 align="left"

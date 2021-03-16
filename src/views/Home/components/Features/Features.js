@@ -68,7 +68,7 @@ const Features = props => {
                   <IconAlternate
                     fontIconClass={item.icon}
                     size="medium"
-                    color={colors.blue}
+                    color={colors.orange}
                   />
                 }
                 align="left"

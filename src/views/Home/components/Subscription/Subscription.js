@@ -7,7 +7,7 @@ import { CardBase } from 'components/organisms';
 
 const useStyles = makeStyles(theme => ({
   cardBase: {
-    background: theme.palette.secondary.main,
+    background: theme.palette.primary.main,
     [theme.breakpoints.up('md')]: {
       background: `url(https://assets.maccarianagency.com/the-front/illustrations/newsletter-bg.svg) no-repeat 150% 50% ${theme.palette.secondary.main}`,
     },

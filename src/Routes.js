@@ -12,6 +12,8 @@ import {
 	Home as HomeView,
 	SignUp as SignupView,
 	SignIn as SigninView,
+	ForgotPassword as ForgotPasswordView,
+	ResetPassword as ResetPasswordView,
 	ContactUs as ContactUsView,
 	HelpCenter as HelpCenterView,
 	HelpCenterArticle as HelpCenterArticleView,
@@ -52,6 +54,28 @@ const Routes = () => {
 					<WithLayout
 						{...matchProps}
 						component={SigninView}
+						layout={MinimalLayout}
+					/>
+				)}
+			/>
+			<Route
+				exact
+				path="/forgotpassword"
+				render={(matchProps) => (
+					<WithLayout
+						{...matchProps}
+						component={ForgotPasswordView}
+						layout={MinimalLayout}
+					/>
+				)}
+			/>
+			<Route
+				exact
+				path="/resetpassword"
+				render={(matchProps) => (
+					<WithLayout
+						{...matchProps}
+						component={ResetPasswordView}
 						layout={MinimalLayout}
 					/>
 				)}
